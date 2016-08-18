@@ -22,4 +22,5 @@ for name in names:
     else:
         n = re.search('\. \w+', name)
         first_names.append(n.group()[2:])
+print "wtf"
 print pandas.Series(first_names).value_counts()
